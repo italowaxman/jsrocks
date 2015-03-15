@@ -92,9 +92,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'cocogooseregular';
+    src: url('../../fonts/Cocogoose-webfont.eot');
+    src: url('../../fonts/Cocogoose-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Cocogoose-webfont.woff2') format('woff2'),
+         url('../../fonts/Cocogoose-webfont.woff') format('woff'),
+         url('../../fonts/Cocogoose-webfont.ttf') format('truetype'),
+         url('../../fonts/Cocogoose-webfont.svg#cocogooseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    font-family: 'cocogooseregular';
+    font-size: 10px;
+}
+h1,h2,h3,h4,h5{
+    font-weight: lighter;
+}
 body{
-    background: blue;
+    background: black;
+}
+p{
+    color: #fff;
+    font-size: 2em;
 }
 
 

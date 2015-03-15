@@ -15,8 +15,6 @@ module.exports = function(grunt) {
         dirs: {
             js:   'assets/js',
             css:  'assets/css',
-            cssboot: 'bower_components/bootstrap/dist/css',
-            jsboot: 'bower_components/bootstrap/dist/js',
             images: 'assets/images'
         },
 
@@ -57,7 +55,7 @@ module.exports = function(grunt) {
         cssmin: {
             dist: {
                 files: {
-                    '<%= dirs.css %>/build/style.min.css': [ '<%= dirs.cssboot %>/*.css', '<%= dirs.css %>/normalize.css', '<%= dirs.css %>/style.css', '<%= dirs.css %>/responsive.css']
+                    '<%= dirs.css %>/_build/style.min.css': [ '<%= dirs.css %>/*.css','<%= dirs.css %>/normalize.css', '<%= dirs.css %>/style.css', '<%= dirs.css %>/responsive.css']
                 }
             }
         },
@@ -71,7 +69,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    '<%= dirs.js %>/build/all.min.js': [ '<%= dirs.js %>/jquery/*.js', '<%= dirs.js %>/*.js', '<%= dirs.jsboot %>/*.js'  ]
+                    '<%= dirs.js %>/_build/all.min.js': [ '<%= dirs.js %>/jquery/*.js', '<%= dirs.js %>/*.js']
                 }
             }
         },
@@ -86,7 +84,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: '<%= dirs.images %>',
                     src: '{,*/}*.{png,jpg,jpeg,gif}',
-                    dest: '<%= dirs.images %>/build'
+                    dest: '<%= dirs.images %>/_build'
                 }]
             }
         }           
