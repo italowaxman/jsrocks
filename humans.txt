@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <italowaxman> -- <design/front-end> -- <@italowaxman>
 
 # THANKS
 
-    <name>
+    <jaydson> -- <@jaydson>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, Javascript, Modernizr
