@@ -233,11 +233,28 @@ header{
     position: relative;
     z-index: 2;
 }
-.search-container{
-    position: relative;
+.icon-search{
+    background: url(../../images/icon-search-header.png) no-repeat;
     float: left;
-    width: 68%;
-    z-index:2;
+    width: 10px;
+    height: 10px;
+    left: 10px;
+    margin-top: 2px;
+    position: relative;
+}
+.icon-search-white{
+    float: left;
+    opacity: 0;
+}
+.icon-search-hover{
+    opacity: 1;
+}
+.icon-search-focus{
+    opacity: 1;
+    transform:rotate(360deg);
+}
+.hide-bg{
+    background: none;
 }
 .input-search{
     background: transparent;
@@ -248,20 +265,13 @@ header{
     font-weight: bold;
     font-style: italic;
     border-bottom: solid 2px #fff;
-    padding:0 0 4px 20px;
-    width: 100%;
-}
-.icon-search{
-    position: absolute;
-    top: 3px;
-    left: 0;
-}
-.search-container:hover .icon-search{
-    transform:rotate(360deg);
+    padding:0 0 4px 25px;
+    width: 60%;
+    float: left;
 }
 .input-search:focus{
     color: #fff;
-    padding:0 40px 4px 20px;
+    width: 75%;
 }
 .button-search{
     background: url(../../images/bg-button-search.png) no-repeat;
@@ -303,6 +313,7 @@ header{
     float: left;
     margin-top: -10px;
     width: 100%;
+    margin-left: 10px;
 }
 .button-post{
     background: transparent;
@@ -348,18 +359,17 @@ header{
 .item-post{
     margin-bottom: 30px;
 }
-.post-big .container-post{
+.container-post{
     background: #fdcf0b;
     padding: 40px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
+    border-radius: 5px;
+}
+.post-big .container-post{
     height: 555px;
 }
 .post-normal .container-post{
-    background: #fdcf0b;
-    padding:40px;
-    position: relative;
-    overflow: hidden;
     height: 375px;
 }
 .share-post{
