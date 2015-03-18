@@ -343,6 +343,7 @@ header{
 }
 .content{
     margin-top: -200px;
+    margin-bottom: 100px;
 }
 .item-post{
     margin-bottom: 30px;
@@ -416,9 +417,6 @@ header{
     padding: 40px;
     position: absolute;
     width: 100%;
-}
-.post-normal .footer-post{
-    padding: 40px;
 }
 .tags-post{
     width: 100%;
@@ -535,7 +533,6 @@ header{
 }
 .testemonials{
     margin-top: 40px;
-    margin-bottom: 200px;
 }
 .centering{
     display: table;
@@ -576,10 +573,7 @@ header{
 }
 .item-testemonial{
     float: left;
-    width: 100%;
-    max-width: 360px;
-    height: auto;
-    margin-right: 30px;
+    margin-bottom: 20px;
 }
 .title-testemonials h2{
      font-size: 4.8em;
@@ -634,6 +628,12 @@ header{
     clear: both;
     float: left;
 }
+footer{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+
+}
 
 .item-flag:last-child,
 .item-social:last-child,
@@ -643,6 +643,8 @@ header{
 .item-testemonial:last-child{
     margin-right: 0;
 }
+
+
 
 /* ==========================================================================
    Helper classes

@@ -38,11 +38,11 @@ module.exports = function(grunt) {
                 files: '*.html'
             },
             css: {
-                files: ['<%= dirs.css %>/*.css', '<%= dirs.cssboot %>/*.css'],
+                files: ['<%= dirs.css %>/*.css'],
                 tasks: ['cssmin']
             },
             js:{
-                files: ['<%= dirs.js %>/*.js', '<%= dirs.jsboot %>/*.js'],
+                files: ['<%= dirs.js %>/*.js'],
                 tasks: ['uglify']
             },
             options: {

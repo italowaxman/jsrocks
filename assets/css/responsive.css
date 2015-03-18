@@ -1,19 +1,78 @@
 /* Large desktop */
 @media (max-width: 1200px) {
-	
+    .post-big .container-post{
+        height: 600px !important;
+    }
+    .post-big .title-post{
+        font-size: 4.6em !important;
+    }
+    .post-normal .container-post{
+        height: 450px !important;
+    }
 }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-	
+    
 }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	
-}
- 
-/* Landscape phones and down */
-@media (max-width: 480px) { 
-	
+@media (max-width: 767px) { 
+    .wrapper{
+        overflow: hidden;
+    }
+    .right{
+        float: none !important;
+        display: table;
+        margin: 0 auto;
+    }
+    .logo::before{
+        left: 50% !important;
+    }
+    .social-list .right{
+        margin: 25px auto 0;
+    }
+    header .item-social{
+        margin-right: 32px !important;
+    }
+    .item-social:last-child{
+        margin-right: 0 !important;
+    }
+    .logo{
+        margin-top: -5px !important;
+    }
+    .content{
+        margin-top: -150px !important;
+    }
+    .button-more-posts{
+        margin-bottom: 0 !important;
+    }
+    .title-testemonials h2{
+        font-size: 2.8em !important;
+        margin: 10px 0 40px !important;
+    }
+    .item-testemonial{
+        display: none;
+    }
+    .item-testemonial:first-child{
+        display: block;
+    }
+    .info-author .social-list{
+        display: none;
+    }
+    .post-big .title-post{
+        font-size: 2.4em !important;
+        margin:12px auto !important;
+    }
+    .footer-post{
+        position: inherit !important;
+        padding: 0 !important;
+        margin-top: 50px;
+    }
+    .post-big  .container-post,
+    .post-normal .container-post{
+        height: auto !important;
+    }
+    .item-post{
+        margin-bottom: 15px !important;
+    }
 }
