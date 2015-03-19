@@ -9,6 +9,12 @@
     .post-normal .container-post{
         height: 450px !important;
     }
+    .input-search{
+        width: 75% !important;
+    }
+    .input-search:focus{
+        width: 80% !important;
+    }
 }
  
 /* Portrait tablet to landscape and desktop */
@@ -31,6 +37,9 @@
     }
     .item-main-menu{
         margin-right: 25px !important;
+    }
+    .social{
+        display: none;
     }
 }
 
@@ -97,5 +106,15 @@
     }
     .item-post{
         margin-bottom: 15px !important;
+    }
+    .info-copyright{
+        font-size:1.1em;
+        line-height: 0;
+    }
+    .info-footer svg,
+    .social,
+    .js-footer,
+    .credits{
+        display: none;
     }
 }
