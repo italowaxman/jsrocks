@@ -38,7 +38,8 @@
     .item-main-menu{
         margin-right: 25px !important;
     }
-    .social{
+    .social,
+    .list-other-posts .item-post:last-child{
         display: none;
     }
 }
