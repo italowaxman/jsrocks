@@ -850,7 +850,11 @@ footer{
 .item-post,
 .row-more-posts,
 .testemonials,
-footer{
+footer,
+.header-article,
+.article-content,
+.row-comments,
+.row-other-posts{
     visibility: hidden;
 }
 

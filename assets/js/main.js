@@ -1,54 +1,25 @@
 $(document).ready(function() {     
 	
 	setTimeout(function() { $(".logo").addClass("fadeIn")}, 100);
-	setTimeout(function() { $(".search").addClass("slideLeft")}, 400);
-	setTimeout(function() { $(".main-menu").addClass("slideRight")}, 400);
-	setTimeout(function() { $(".row-down").addClass("slideDown")}, 1000);
-	setTimeout(function() { $(".row-button").addClass("bigEntrance")}, 1000);
 
-	$(window).scroll(function() {
-		$('.item-post').each(function(){
-		var imagePos = $(this).offset().top;
+	setTimeout(function() { $(".search").addClass("slideLeft")}, 200);
+	setTimeout(function() { $(".main-menu").addClass("slideRight")}, 200);
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+2000) {
-				$(this).addClass("fadeInBox");
-			}
-		});
-	});
+	setTimeout(function() { $(".row-button").addClass("slideUp")}, 500);
 
-	$(window).scroll(function() {
-		$('.row-more-posts').each(function(){
-		var imagePos = $(this).offset().top;
+	setTimeout(function() { $(".row-down").addClass("slideDown")}, 600);
+	setTimeout(function() { $(".item-post").addClass("fadeInBox")}, 600);
+	setTimeout(function() { $(".row-comments").addClass("fadeInBox")}, 600);
+	setTimeout(function() { $(".row-other-posts").addClass("fadeInBox")}, 600);
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+1400) {
-				$(this).addClass("bigEntrance");
-			}
-		});
-	});
+	setTimeout(function() { $(".testemonials").addClass("fadeInBox")}, 700);
+	setTimeout(function() { $(".footer").addClass("slideUp")}, 700);
+		setTimeout(function() { $(".row-more-posts").addClass("slideUp")}, 700);
 
-	$(window).scroll(function() {
-		$('.testemonials').each(function(){
-		var imagePos = $(this).offset().top;
+	setTimeout(function() { $(".header-article").addClass("slideUp")}, 600);
+	setTimeout(function() { $(".article-content").addClass("slideUp")}, 600);
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+1200) {
-				$(this).addClass("fadeInBox");
-			}
-		});
-	});
 
-	$(window).scroll(function() {
-		$('.footer').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+1600) {
-				$(this).addClass("slideUp");
-			}
-		});
-	});
 
 
 	$(".button-post").hover(function() {
