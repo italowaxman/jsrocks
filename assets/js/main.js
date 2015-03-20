@@ -1,5 +1,6 @@
 $(document).ready(function() {     
 	
+	//Animations Timing
 	setTimeout(function() { $(".logo").addClass("fadeIn")}, 100);
 
 	setTimeout(function() { $(".search").addClass("slideLeft")}, 200);
@@ -11,17 +12,15 @@ $(document).ready(function() {
 	setTimeout(function() { $(".item-post").addClass("fadeInBox")}, 600);
 	setTimeout(function() { $(".row-comments").addClass("fadeInBox")}, 600);
 	setTimeout(function() { $(".row-other-posts").addClass("fadeInBox")}, 600);
-
-	setTimeout(function() { $(".testemonials").addClass("fadeInBox")}, 700);
-	setTimeout(function() { $(".footer").addClass("slideUp")}, 700);
-		setTimeout(function() { $(".row-more-posts").addClass("slideUp")}, 700);
-
 	setTimeout(function() { $(".header-article").addClass("slideUp")}, 600);
 	setTimeout(function() { $(".article-content").addClass("slideUp")}, 600);
 
+	setTimeout(function() { $(".testemonials").addClass("fadeInBox")}, 700);
+	setTimeout(function() { $(".footer").addClass("slideUp")}, 700);
+	setTimeout(function() { $(".row-more-posts").addClass("slideUp")}, 700);
 
 
-
+	//Hoverbla Classes
 	$(".button-post").hover(function() {
 		$(this).toggleClass("button-thunder");
 	});
