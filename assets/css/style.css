@@ -119,6 +119,7 @@ h1,h2,h3,h4,h5{
 }
 body{
     background: #0b0b0b;
+    overflow-x:hidden; 
 }
 header{
     background: url(../../images/bg-header-2.jpg) no-repeat center center;
@@ -726,6 +727,98 @@ footer{
     position: relative;
     z-index: 2;
 }
+.header-article .author-post{
+    display: table;
+    margin: 0 auto 20px;
+}
+.header-article .author-post span,
+.header-article .author-post a{
+    color: #fff;
+}
+.header-article .date-post{
+    text-align: center;
+    color: #fff;
+}
+.header-article .title-post{
+    font-size: 4.8em;
+    color: #fdcf0b;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.header-article .item-tag-post a{
+    color: #fff;
+    border-color: #fff;
+}
+.header-article .item-tag-post a:hover{
+    background: #fff;
+    color: #000;
+}
+.article-content{
+    background: #fff;
+    border-radius:5px;
+    padding: 35px;
+    height: auto;
+}
+.article-content .share-post{
+    position: absolute;
+    right: 14px;
+    top: 35px;
+}
+.article-content p{
+    font-size: 1.8em;
+    font-family: georgia;
+    font-style: italic;
+    margin:1em 0;
+}
+.article-content p a{
+    color: #e5b900;
+    text-decoration: underline;
+    font-size: 100%;
+    font-family: georgia;
+}
+.article-content p a:hover{
+    text-decoration: none;
+}
+.article-content blockquote{
+    font-size: inherit;
+    font-size: 100%;
+}
+.article-content p em{
+    font-style: italic;
+    font-family: georgia;
+    font-size: 100%;
+    color: #7c7c7c;
+}
+.title-article-content{
+    text-transform: uppercase;
+}
+.title-comments-article{
+    margin-top: 40px;
+}
+.title-comments-article h2{
+    margin-right: 10px;
+}
+.comments-container{
+    background: #fff;
+    border-radius: 5px;
+    height: 500px;
+}
+.title-comments-article svg{
+    opacity: 1;
+    float: left;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 6px;
+    opacity: 1;
+    width: 22px;
+    animation-duration: 5s;
+}
+.button-top img{
+    margin-top: 2px;
+}
+
 .item-flag:last-child,
 .item-social:last-child,
 .item-main-menu:last-child,
@@ -735,7 +828,17 @@ footer{
     margin-right: 0;
 }
 
-
+.logo,
+.main-menu,
+.search,
+.row-down,
+.row-button,
+.item-post,
+.row-more-posts,
+.testemonials,
+footer{
+    visibility: hidden;
+}
 
 /* ==========================================================================
    Helper classes

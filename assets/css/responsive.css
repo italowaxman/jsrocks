@@ -107,9 +107,15 @@
     .item-post{
         margin-bottom: 15px !important;
     }
+    .info-footer{
+        text-align: center;
+    }
     .info-copyright{
         font-size:1.1em;
         line-height: 0;
+    }
+    .header-article .title-post{
+        font-size: 4em !important;
     }
     .info-footer svg,
     .social,
