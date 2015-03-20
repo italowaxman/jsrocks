@@ -791,6 +791,17 @@ footer{
     font-size: 100%;
     color: #7c7c7c;
 }
+.article-content li{
+    font-family: georgia;
+    list-style: initial;
+    margin-left: 40px;
+}
+.article-content strong{
+    font-weight: bold;
+    font-family: georgia;
+    font-size: 100%;
+    font-style: italic;
+}
 .title-article-content{
     text-transform: uppercase;
 }
@@ -803,7 +814,8 @@ footer{
 .comments-container{
     background: #fff;
     border-radius: 5px;
-    height: 500px;
+    height: auto;
+    padding: 35px;
 }
 .title-comments-article svg{
     opacity: 1;
@@ -816,6 +828,8 @@ footer{
     animation-duration: 5s;
 }
 .button-top img{
+    float: left;
+    margin-right: 6px;
     margin-top: 2px;
 }
 
